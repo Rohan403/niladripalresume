@@ -1,5 +1,5 @@
-import React from 'react';
-import { Mail, Phone, Linkedin, Globe, MapPin, Calendar, Building2 } from 'lucide-react';
+import React from "react";
+import { Mail, Phone, Linkedin, Globe, MapPin, Calendar, Building2 } from "lucide-react";
 
 function App() {
   const handlePrint = () => {
@@ -9,10 +9,7 @@ function App() {
   return (
     <>
       <div className="fixed top-4 right-4 print:hidden">
-        <button 
-          onClick={handlePrint}
-          className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md flex items-center gap-2"
-        >
+        <button onClick={handlePrint} className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md flex items-center gap-2">
           Download PDF
         </button>
       </div>
@@ -22,23 +19,31 @@ function App() {
           <div className="p-8 border-b border-gray-200 bg-gradient-to-r from-blue-50 to-indigo-50">
             <h1 className="text-4xl font-bold text-gray-800">NILADRI PAL</h1>
             <h2 className="text-2xl text-blue-600 mt-2">Full Stack Developer</h2>
-            
+
             <div className="mt-4 flex flex-wrap gap-6 text-gray-600">
               <div className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-green-500" />
-                <a href="tel:+919556903109" className="hover:text-blue-600">+91 9556903109</a>
+                <a href="tel:+919556903109" className="hover:text-blue-600">
+                  +91 9556903109
+                </a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-5 h-5 text-red-500" />
-                <a href="mailto:niladripal160@gmail.com" className="hover:text-blue-600">niladripal160@gmail.com</a>
+                <a href="mailto:niladripal160@gmail.com" className="hover:text-blue-600">
+                  niladripal160@gmail.com
+                </a>
               </div>
               <div className="flex items-center gap-2">
                 <Linkedin className="w-5 h-5 text-[#0A66C2]" />
-                <a href="https://www.linkedin.com/in/niladri-pal-670480213/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">LinkedIn Profile</a>
+                <a href="https://www.linkedin.com/in/niladri-pal-670480213/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
+                  LinkedIn Profile
+                </a>
               </div>
               <div className="flex items-center gap-2">
                 <Globe className="w-5 h-5 text-purple-500" />
-                <a href="https://niladripalportfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">Portfolio Website</a>
+                <a href="https://niladriportfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
+                  Portfolio Website
+                </a>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-5 h-5 text-red-600" />
@@ -52,22 +57,7 @@ function App() {
             <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
               <span className="text-blue-600">PROFESSIONAL SUMMARY</span>
             </h3>
-            <p className="text-gray-700 leading-relaxed">
-              Full Stack Developer building websites and web 
-applications using ReactJS, NextJS, and 
-modern JavaScript tools like Tailwind CSS and 
-Redux. Strong design-to-code transition skills. 
-Experienced in developing effective and 
-productive relationships with clients and 
-vendors. Knowledgeable in user interaction, 
-testing, and debugging processes. Equipped 
-with a diverse programming skill set. 
-Experienced with the latest cutting-edge 
-development tools and procedures. Able to 
-effectively self-manage during independent 
-projects, as well as collaborate as part of a 
-productive team. 
-            </p>
+            <p className="text-gray-700 leading-relaxed">Full Stack Developer building websites and web applications using ReactJS, NextJS, and modern JavaScript tools like Tailwind CSS and Redux. Strong design-to-code transition skills. Experienced in developing effective and productive relationships with clients and vendors. Knowledgeable in user interaction, testing, and debugging processes. Equipped with a diverse programming skill set. Experienced with the latest cutting-edge development tools and procedures. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.</p>
           </div>
 
           {/* Professional Experience */}
@@ -75,7 +65,7 @@ productive team.
             <h3 className="text-xl font-bold text-gray-800 mb-6 flex items-center gap-2">
               <span className="text-blue-600">PROFESSIONAL EXPERIENCE</span>
             </h3>
-            
+
             {/* Current Role */}
             <div className="mb-8">
               <div className="flex justify-between items-start mb-2">
